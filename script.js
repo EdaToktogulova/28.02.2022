@@ -1,4 +1,4 @@
-let fruits = ["apple", "banana", "qiwi", "peach",]
+// let fruits = ["apple", "banana", "qiwi", "peach",]
 
 // fruits.forEach((item) => {
 //    console.log(item)
