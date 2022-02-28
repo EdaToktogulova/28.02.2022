@@ -4,7 +4,7 @@
 //    console.log(item)
 // });
 
-let fruits = ["apple", "banana", false, 13, "hello", ["1", "2", "3"], {name: "Petter", lastname: "Parker"}, 12345]
+// let fruits = ["apple", "banana", false, 13, "hello", ["1", "2", "3"], {name: "Petter", lastname: "Parker"}, 12345]
 
 // fruits.forEach((item=> {
 //    console.log(typeof(item));
@@ -41,7 +41,7 @@ let people = [
 
 let container = document.querySelector("#container")
 
-people.forEach((item=>{
+people.forEach(item=>{
    let person = document.createElement("div");
    let name = `${item.name}, `;
    let lastname = `${item.name}, `;
@@ -51,4 +51,4 @@ people.forEach((item=>{
    person.append(age);
    person.append(person);
 
-}))
+})
