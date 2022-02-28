@@ -6,6 +6,6 @@
 
 let fruits = ["apple", "banana", false, 13, "hello", ["1", "2", "3"], {name: "Petter", lastname: "Parker"}, 12345]
 
-fruits.forEach(() {
-   
-});
+fruits.forEach((item=> {
+   console.log(typeof(item));
+}))
