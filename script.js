@@ -39,3 +39,16 @@ let people = [
    },
 ]
 
+let container = document.querySelector("#container")
+
+people.forEach((item=>{
+   let person = document.createElement("div");
+   let name = `${item.name}, `;
+   let lastname = `${item.name}, `;
+   let age = item.age;
+   person.append(name);
+   person.append(lastname);
+   person.append(age);
+   person.append(person);
+
+}))
