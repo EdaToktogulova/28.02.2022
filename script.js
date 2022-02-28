@@ -11,44 +11,33 @@
 // }))
 
 
-let people = [
+let company = [
    {
       name: "Peter",
-      lastname: "Parker",
-      age: 34
+      resume: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus fugiat, consequatur magnam neque totam facere eligendi aliquam aliquid aspernatur deserunt itaque quia impedit odit blanditiis perferendis! Officiis aspernatur ipsam magnam?",
+      profession: "front-end"
    },
    {
       name: "Lasley",
-      lastname:"Johnson",
-      age: 55
+      resume: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus fugiat, consequatur magnam neque totam facere eligendi aliquam aliquid aspernatur deserunt itaque quia impedit odit blanditiis perferendis! Officiis aspernatur ipsam magnam?",
+      profession: "java"
    },
    {
       name: "Sam",
-      lastname:"Cruz",
-      age: 11
-   },
-   {
-      name: "Sadyr",
-      lastname:"Japarov",
-      age: 44
-   },
-   {
-      name: "Elon",
-      lastname:"Mask",
-      age: 51
+      resume: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus fugiat, consequatur magnam neque totam facere eligendi aliquam aliquid aspernatur deserunt itaque quia impedit odit blanditiis perferendis! Officiis aspernatur ipsam magnam?",
+      profession: "3D model"
    },
 ]
 
 let container = document.querySelector("#container")
 
-people.forEach(item=>{
-   let person = document.createElement("div");
+company.forEach(item=>{
+   let company = document.createElement("div");
    let name = `${item.name}, `;
-   let lastname = `${item.name}, `;
-   let age = item.age;
+   let resume = `${item.name}, `;
+   let profession = item.age;
    person.append(name);
-   person.append(lastname);
-   person.append(age);
-   person.append(person);
-
+   person.append(resume);
+   person.append(profession);
 })
+
