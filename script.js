@@ -34,8 +34,8 @@ let container = document.querySelector("#container")
 company.forEach(item=>{
    let company = document.createElement("div");
    let name = `${item.name}, `;
-   let resume = `${item.name}, `;
-   let profession = item.age;
+   let resume = `${item.resume}, `;
+   let profession = item.profession;
    person.append(name);
    person.append(resume);
    person.append(profession);
