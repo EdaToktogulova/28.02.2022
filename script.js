@@ -5,3 +5,4 @@ let fruits = ["apple", "banana", "qiwi", "peach",]
 // });
 
 let fruits = ["apple", "banana", false, 13, "hello", ["1", "2", "3"], {name: "Petter", lastname: "Parker"}, 12345]
+
