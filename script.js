@@ -39,5 +39,5 @@ company.forEach(item=>{
    person.append(name);
    person.append(resume);
    person.append(profession);
-})
+});
 
