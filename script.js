@@ -10,7 +10,6 @@
 //    console.log(typeof(item));
 // }))
 
-
 let company = [
    {
       name: "Peter",
@@ -29,13 +28,14 @@ let company = [
    },
 ]
 
-let container = document.querySelector("#container")
-
+let body = document.querySelector('body')
 company.forEach(item=>{
-   let company = document.createElement("div");
-   let name = `${item.name}, `;
-   let resume = `${item.resume}, `;
+   let person = document.createElement("div");
+   let name = item.name
+   let resume = item.resume
    let profession = item.profession;
+   
+   body.append(person);
    person.append(name);
    person.append(resume);
    person.append(profession);
