@@ -22,3 +22,12 @@
 .accordion--open .accordion__content {
    display: block;
 }
+
+.accordion--open .accordion__header {
+   background-color: rgb(254, 248, 240);
+}
+.accordions .accordion:not (:first-of-type) {
+   border-top-left-radius:0;
+   border-top-right-radius:0;
+   
+}
