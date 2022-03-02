@@ -58,3 +58,14 @@ document.querySelectorAll('.accordion').forEach(accordion => {
       accordion.classList.toggle('accordion--open');
    });
 });
+
+document.querySelectorAll('[data-modal]').forEach(trigger => {
+   trigger.addEventListener('click', function () {
+      document.getElementById(trigger.dataset.modal).classList.add('modal--open')
+   });
+})
+document.querySelectorAll('.modal').forEach(modal => {
+   modal.querySelector('modal__window').addEventListener('click', function() {
+      modal.classList.remove('modal--open');
+   });
+})
