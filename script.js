@@ -10,34 +10,37 @@
 //    console.log(typeof(item));
 // }))
 
-let company = [
-   {
-      name: "Peter",
-      resume: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus fugiat, consequatur magnam neque totam facere eligendi aliquam aliquid aspernatur deserunt itaque quia impedit odit blanditiis perferendis! Officiis aspernatur ipsam magnam?",
-      profession: "front-end"
-   },
-   {
-      name: "Lasley",
-      resume: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus fugiat, consequatur magnam neque totam facere eligendi aliquam aliquid aspernatur deserunt itaque quia impedit odit blanditiis perferendis! Officiis aspernatur ipsam magnam?",
-      profession: "java"
-   },
-   {
-      name: "Sam",
-      resume: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus fugiat, consequatur magnam neque totam facere eligendi aliquam aliquid aspernatur deserunt itaque quia impedit odit blanditiis perferendis! Officiis aspernatur ipsam magnam?",
-      profession: "3D model"
-   },
-]
+// let company = [
+//    {
+//       name: "Ivan",
+//       age: "22",
+//       resume: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus fugiat, consequatur magnam neque totam facere eligendi aliquam aliquid aspernatur deserunt itaque quia impedit odit blanditiis perferendis! Officiis aspernatur ipsam magnam?",
+//       profession: "It-specialist"
+//    },
+//    {
+//       name: "Clara",
+//       age: "19",
+//       resume: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus fugiat, consequatur magnam neque totam facere eligendi aliquam aliquid aspernatur deserunt itaque quia impedit odit blanditiis perferendis! Officiis aspernatur ipsam magnam?",
+//       profession: "Front-end specialist"
+//    },
+//    {
+//       name: "Idai",
+//       age: "24",
+//       resume: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus fugiat, consequatur magnam neque totam facere eligendi aliquam aliquid aspernatur deserunt itaque quia impedit odit blanditiis perferendis! Officiis aspernatur ipsam magnam?",
+//       profession: "It-specialist"
+//    },
+// ]
 
-let body = document.querySelector('body')
-company.forEach(item=>{
-   let person = document.createElement("div");
-   let name = item.name;
-   let resume = item.resume;
-   let profession = item.profession;
+// let body = document.querySelector('body')
+// company.forEach(item=>{
+//    let person = document.createElement("div");
+//    let name = item.name;
+//    let resume = item.resume;
+//    let profession = item.profession;
    
-   body.append(person);
-   person.append(name);
-   person.append(resume);
-   person.append(profession);
-});
+//    body.append(person);
+//    person.append(name);
+//    person.append(resume);
+//    person.append(profession);
+// });
 
