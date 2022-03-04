@@ -23,8 +23,68 @@
 .button--danger {
    background-color: rgb(143, 18, 18);
 }
-.button--outlined.button--dange {
+.button--outlined.button--danger {
    border-color: rgb(143, 18, 18);
    color: rgb(143, 18, 18);
    background-color: white;
+}
+
+
+
+.accordion {
+   border: 1px solid lightgrey;
+   border-radius: .5rem;
+   overflow: hidden;
+}
+.accordion__header {
+   padding: .5rem 1rem;
+   background-color: rgb(254, 248, 240);
+   font-weight: bold;
+   cursor: pointer;
+}
+.accordion__content {
+   border-top: 1px solid lightgrey;
+   padding: .5rem 1rem;
+   display: none;
+}
+
+.accordion--open .accordion__content {
+   display: block;
+}
+
+.accordion--open .accordion__header {
+   background-color: rgb(254, 248, 240);
+}
+.accordions .accordion:not (:first-of-type) {
+   border-top-left-radius:0;
+   border-top-right-radius:0;
+
+}
+
+
+.modal {
+   display: none;
+}
+.modal.modal--open {
+   display: block;
+}
+
+.modal__backdrop {
+   position: fixed;
+   top: 0;
+   right: 0;
+   left: 0;
+   bottom: 0;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.modal__content {
+   background-color: white;
+   max-width: 350px;
+   margin: 1rem;
+   border-radius: .5rem;
+   padding: .1rem;
+
 }
